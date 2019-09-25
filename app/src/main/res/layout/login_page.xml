@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
+    android:background="@color/hpcolor"
     android:gravity="center_vertical"
     android:orientation="vertical"
     android:padding="50dp"
@@ -17,14 +17,14 @@
         android:src="@drawable/hplogo" />
 
     <EditText
-        android:id="@+id/etLoginUsername"
+        android:id="@+id/etLoginUserID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:background="@drawable/edittext_bottom_border"
-        android:hint="@string/username"
+        android:hint="@string/userid"
         android:textColor="@color/hpcolor"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:padding="10dp" />
 
 
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="@color/hpcolor"
+        android:background="#cc3300"
         android:text="@string/sign_in"
         android:textColor="@android:color/white" />
     <TextView
@@ -53,14 +53,14 @@
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:text="@string/not_having_account"
-        android:textColor="#aaa" />
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/btnLoginRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="#aaa"
+        android:background="#cc3300"
         android:text="@string/register"
         android:textColor="@android:color/white" />
 
